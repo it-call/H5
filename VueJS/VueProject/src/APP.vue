@@ -5,6 +5,7 @@
             <li>Cart</li>
             <li>Mine</li>
         </ul>
+        <router-view/>
     </div>
 </template>
 <script>
