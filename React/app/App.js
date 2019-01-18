@@ -5,7 +5,7 @@ class App extends React.Component{
     render(){
         return (
            <div>
-               App
+               靓仔靓女们：
                <Card/>{/* Card当成标签使用 */} 
             </div> 
         )
