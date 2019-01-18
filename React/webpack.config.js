@@ -22,7 +22,7 @@ module.exports = {
     // 测试服务器：安装
     devServer:{
         contentBase:'./app/',
-        port:1809,
+        port:1901,
         open:true
     },
 
@@ -46,7 +46,7 @@ module.exports = {
                     loader:'babel-loader',
                     // 配置loader选项
                     options:{
-                        presets:['env','react'] //编译ES6->ES5,JSX->JS
+                        presets:['env','react','stage-0'] //编译ES6->ES5,JSX->JS
                     }
                 }
             },
